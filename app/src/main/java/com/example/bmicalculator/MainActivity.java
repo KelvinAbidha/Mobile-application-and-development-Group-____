@@ -68,13 +68,13 @@ public class MainActivity extends AppCompatActivity {
 
                     String category;
                     if (bmi < 18.5) {
-                        category = "Underweight";
+                        category = "Underweight"; // Outputs underweight for all instances where bmi < 18.5
                     } else if (bmi < 25) {
-                        category = "Normal";
+                        category = "Normal"; // Outputs normal for all instances where 18.5 <= bmi < 25
                     } else if (bmi < 30) {
-                        category = "Overweight";
+                        category = "Overweight"; // Outputs overweight for all instances where 25 <= bmi < 30
                     } else {
-                        category = "Obese";
+                        category = "Obese"; // Outputs obese for all other instances i.e., where bmi >= 30
                     }
 
                     String resultText = String.format("BMI: %.1f (%s)", bmi, category);
