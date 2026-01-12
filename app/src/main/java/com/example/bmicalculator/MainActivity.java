@@ -25,37 +25,20 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        // Auto-generated insets handling (leave as is)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        // =========================
-        // Part 2, 3, 4: UI wiring
-        // =========================
-
-        // (Prudence: defines these IDs in activity_main.xml)
-        // (Mercy: styles them)
-        // (Kerry: connects them to code)
+        
 
         edtWeight = findViewById(R.id.weightEditText);
         edtHeight = findViewById(R.id.heightEditText);
         txtResult = findViewById(R.id.resultTextView);
         btnCompute = findViewById(R.id.calculateButton);
 
-        // =========================
-
-        // Part 4 + 5 + 6: Logic
-
-        // =========================
-
-        // Kerry: sets click listener and basic BMI calculation
-
-        // Victor: defines BMI ranges and labels (Underweight, Normal, Overweight, Obese)
-
-        //  input validation + crash prevention inside this listener
+        
         btnCompute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
 
-                    // ===== Part 4 + 5: BMI computation + classification =====
+                    //  BMI computation + classification 
                     double bmi = weight / (height * height);
 
                     String category;
