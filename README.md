@@ -49,4 +49,4 @@ To evolve this application further, the following features are recommended:
 * **Visual Feedback:** Color-coding results for faster cognitive processing.
 
 ---
-**Report by Cynthia** *Documentation Specialist*
+
