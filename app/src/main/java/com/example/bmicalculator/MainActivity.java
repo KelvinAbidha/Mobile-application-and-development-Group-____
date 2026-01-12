@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     // Part 2 + 3 + 4 + 5 + 6 work together here
     private EditText edtWeight, edtHeight;   // P2: Prudence (XML IDs) / P4: Kerry (wiring)
     private TextView txtResult;              // P2 + P3: layout / P4: wiring
-    private Button btnCompute;               // P2: button in XML / P4: wiring
+    private Button btnCompute;             // P2: button in XML / P4: wiring
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
