@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
         // (Mercy: styles them)
         // (Kerry: connects them to code)
 
-        edtWeight = findViewById(R.id.edtWeight);
-        edtHeight = findViewById(R.id.edtHeight);
-        txtResult = findViewById(R.id.txtResult);
-        btnCompute = findViewById(R.id.btnCompute);
+        edtWeight = findViewById(R.id.weightEditText);
+        edtHeight = findViewById(R.id.heightEditText);
+        txtResult = findViewById(R.id.resultTextView);
+        btnCompute = findViewById(R.id.calculateButton);
 
         // =========================
 
