@@ -13,40 +13,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BMI Calculator"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
+        style="@style/TitleText"/>
 
     <EditText
         android:id="@+id/weightEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Weight (kg)"
-        android:inputType="numberDecimal"
-        android:layout_marginBottom="16dp"/>
+        style="@style/InputField"/>
 
     <EditText
         android:id="@+id/heightEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Height (m)"
-        android:inputType="numberDecimal"
-        android:layout_marginBottom="24dp"/>
+        style="@style/InputField"/>
 
     <Button
         android:id="@+id/calculateButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calculate BMI"
-        android:layout_marginBottom="24dp"/>
+        style="@style/PrimaryButton"/>
 
     <TextView
         android:id="@+id/resultTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Result will appear here"
-        android:textSize="18sp"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"/>
+        style="@style/ResultText"/>
 
 </LinearLayout>
