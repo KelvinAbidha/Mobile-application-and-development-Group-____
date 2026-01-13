@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BMI Calculator</string>
+    <string name="err_empty_input">Please enter both weight and height.</string>
+    <string name="err_positive_values">Weight and height must be positive numbers.</string>
+    <string name="err_invalid_input">Invalid input. Use numbers like 70 or 1.75.</string>
+    <string name="bmi_result_format">BMI: %.1f (%s)</string>
 </resources>
